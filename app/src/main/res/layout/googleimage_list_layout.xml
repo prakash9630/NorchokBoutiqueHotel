@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/appBackground"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:id="@+id/apartment_A"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/image_icon_height"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <com.automarks.nuzatech.Norchok.activity.RoundRectCornerImageView
+                    android:id="@+id/myImageView"
+                    android:layout_width="match_parent"
+
+
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="@dimen/margin_landingpage_buttom"
+                    android:layout_marginLeft="@dimen/margin_on_landingpage"
+                    android:layout_marginRight="@dimen/margin_on_landingpage"
+                    android:layout_marginTop="@dimen/margin_landingpage_buttom"
+                    android:scaleType="centerCrop"
+
+                    android:src="@drawable/type_a" />
+
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="@dimen/margin_landingpage_buttom"
+                    android:layout_marginLeft="@dimen/margin_on_landingpage"
+                    android:layout_marginRight="@dimen/margin_on_landingpage"
+                    android:layout_marginTop="@dimen/margin_landingpage_buttom"
+                    android:background="@drawable/landingpageradious"></LinearLayout>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_margin="@dimen/landing_text_margin"
+                    android:text="Type A"
+                    android:textAllCaps="true"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/textsize_landingpage"
+                    android:textStyle="bold" />
+
+
+            </FrameLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/apartmen_B"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/image_icon_height"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <com.automarks.nuzatech.Norchok.activity.RoundRectCornerImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:layout_marginBottom="@dimen/margin_landingpage_buttom"
+                    android:layout_marginLeft="@dimen/margin_on_landingpage"
+                    android:layout_marginRight="@dimen/margin_on_landingpage"
+                    android:layout_marginTop="@dimen/margin_landingpage_buttom"
+                    android:background="@color/transparent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/type_b" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="@dimen/margin_landingpage_buttom"
+                    android:layout_marginLeft="@dimen/margin_on_landingpage"
+                    android:layout_marginRight="@dimen/margin_on_landingpage"
+                    android:layout_marginTop="@dimen/margin_landingpage_buttom"
+                    android:background="@drawable/landingpageradious"></LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_margin="@dimen/landing_text_margin"
+                    android:text="Type b"
+                    android:textAllCaps="true"
+
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/textsize_landingpage"
+                    android:textStyle="bold" />
+
+            </FrameLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/apartment_c"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/image_icon_height"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <com.automarks.nuzatech.Norchok.activity.RoundRectCornerImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:layout_marginBottom="@dimen/margin_landingpage_buttom"
+                    android:layout_marginLeft="@dimen/margin_on_landingpage"
+                    android:layout_marginRight="@dimen/margin_on_landingpage"
+                    android:layout_marginTop="@dimen/margin_landingpage_buttom"
+                    android:scaleType="centerCrop"
+
+                    android:src="@drawable/type_c" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="@dimen/margin_landingpage_buttom"
+                    android:layout_marginLeft="@dimen/margin_on_landingpage"
+                    android:layout_marginRight="@dimen/margin_on_landingpage"
+                    android:layout_marginTop="@dimen/margin_landingpage_buttom"
+                    android:background="@drawable/landingpageradious"></LinearLayout>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_margin="@dimen/landing_text_margin"
+                    android:text="Type c"
+                    android:textAllCaps="true"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/textsize_landingpage"
+                    android:textStyle="bold" />
+
+            </FrameLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/apartment_d"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/image_icon_height"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <com.automarks.nuzatech.Norchok.activity.RoundRectCornerImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:layout_marginBottom="@dimen/margin_landingpage_buttom"
+                    android:layout_marginLeft="@dimen/margin_on_landingpage"
+                    android:layout_marginRight="@dimen/margin_on_landingpage"
+                    android:layout_marginTop="@dimen/margin_landingpage_buttom"
+                    android:scaleType="centerCrop"
+
+                    android:src="@drawable/type_d" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="@dimen/margin_landingpage_buttom"
+                    android:layout_marginLeft="@dimen/margin_on_landingpage"
+                    android:layout_marginRight="@dimen/margin_on_landingpage"
+                    android:layout_marginTop="@dimen/margin_landingpage_buttom"
+                    android:background="@drawable/landingpageradious"></LinearLayout>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_margin="@dimen/landing_text_margin"
+                    android:text="Type d"
+                    android:textAllCaps="true"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/textsize_landingpage"
+                    android:textStyle="bold" />
+
+
+            </FrameLayout>
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

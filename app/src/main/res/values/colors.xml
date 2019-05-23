@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#B9265D</color>
+    <color name="colorPrimaryDark">#f05d8a</color>
+    <color name="colorAccent">#840034</color>
+
+
+    <color name="appBackground">#ffffff</color>
+    <color name="appBackgroundtransparent">#50B5BAD0</color>
+
+
+    <!--<color name="primarybuttoncolor">#357cce</color>-->
+    <color name="primarybuttoncolor">#B9265D</color>
+<color name="navigation_color">#f05d8a</color>
+    <!--<color name="secondarybuttoncolor">#53a4e4</color>-->
+    <color name="secondarybuttoncolor">#50000000</color>
+    <color name="white">#ffffff</color>
+
+    <color name="dashboard_button_textcolor">#FF9F1C</color>
+
+    <color name="navagaion_item_color">#ffffff</color>
+
+    <color name="transparent">#00000000</color>
+    <color name="transparent_black">#70000000</color>
+
+    <color name="tablayout_nodata_color">#50000000</color>
+
+    <color name="color_booking_text">#50000000</color>
+
+
+    <color name="fab_prinarycolor">#90ffffff</color>
+    <color name="fab_secondarycolor">#90B9265D</color>
+    <color name="transparent_frame_landingpage">#50000000</color>
+    <color name="black">#000000</color>
+    <color name="apartmentbackground">#ebebf1</color>
+
+
+</resources>
